@@ -1,0 +1,6 @@
+{
+  "name": "FX Pattern Master",
+  "description": "Interactive technical analysis and forex pattern mastery platform with visual entry and exit proof, market structure, position sizing, and risk management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

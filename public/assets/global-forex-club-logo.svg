@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800;900&amp;family=Caveat:wght@600;700&amp;display=swap');
+      .brand-title {
+        font-family: 'Orbitron', 'Plus Jakarta Sans', system-ui, sans-serif;
+        font-weight: 900;
+        letter-spacing: -0.02em;
+      }
+      .brand-script {
+        font-family: 'Caveat', 'Dancing Script', cursive;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+
+  <!-- Dark Background -->
+  <rect width="900" height="600" fill="#000000" />
+
+  <g transform="translate(100, 110)">
+    <!-- LINE 1: "Global" in crisp white -->
+    <text x="0" y="110" fill="#FFFFFF" class="brand-title" font-size="118">Global</text>
+
+    <!-- LINE 2: "F" [O-Emblem] "rex" "Club" -->
+    <g transform="translate(0, 160)">
+      <!-- "F" in golden yellow -->
+      <text x="0" y="110" fill="#F5A623" class="brand-title" font-size="118">F</text>
+
+      <!-- Circular Candlestick Emblem ("O") -->
+      <g transform="translate(82, 10)">
+        <circle cx="56" cy="56" r="50" stroke="#F5A623" stroke-width="10" fill="#000000" />
+        <!-- Left Red Candlestick -->
+        <line x1="38" y1="26" x2="38" y2="44" stroke="#E52525" stroke-width="3" stroke-linecap="round" />
+        <rect x="31" y="44" width="14" height="30" rx="2" fill="#E52525" />
+        <line x1="38" y1="74" x2="38" y2="88" stroke="#E52525" stroke-width="3" stroke-linecap="round" />
+        <!-- Center Small Red Candlestick (Lower Dip) -->
+        <line x1="56" y1="58" x2="56" y2="65" stroke="#E52525" stroke-width="2.5" stroke-linecap="round" />
+        <rect x="52" y="65" width="8" height="11" rx="1.5" fill="#E52525" />
+        <line x1="56" y1="76" x2="56" y2="86" stroke="#E52525" stroke-width="2.5" stroke-linecap="round" />
+        <!-- Right Green Candlestick -->
+        <line x1="74" y1="18" x2="74" y2="36" stroke="#00C853" stroke-width="3" stroke-linecap="round" />
+        <rect x="67" y="36" width="14" height="34" rx="2" fill="#00C853" />
+        <line x1="74" y1="70" x2="74" y2="86" stroke="#00C853" stroke-width="3" stroke-linecap="round" />
+      </g>
+
+      <!-- "rex" in golden yellow -->
+      <text x="206" y="110" fill="#F5A623" class="brand-title" font-size="118">rex</text>
+
+      <!-- "Club" in pure white -->
+      <text x="400" y="110" fill="#FFFFFF" class="brand-title" font-size="118">Club</text>
+    </g>
+
+    <!-- LINE 3: "with you every pip of the trade" in gold cursive script -->
+    <text x="4" y="340" fill="#F5A623" class="brand-script" font-size="52" letter-spacing="0.04em">with you every pip of the trade</text>
+  </g>
+</svg>
